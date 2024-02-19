@@ -15,7 +15,7 @@ let answers_0 = [];
 answers_0[0] = prompt("Ви поснідали?");
 answers_0[1] = prompt("Ви пообідали?");
 answers_0[2] = prompt("Ви повечеряли?");
-console.log(answers2);
+console.log(answers0);
 
 
 
@@ -166,8 +166,8 @@ const multiplyTable_2 = Array.from({ length: 5 }, (_, i) =>
   Array.from({ length: 5 }, (_, j) => (i + 1) * (j + 1))
 );
 const flattenedArray_2 = [...multiplyTable_2.flat()];
-console.log(flattenedArray);
-console.log('Довжина масиву:', flattenedArray.length);
+console.log(flattenedArray_2);
+console.log('Довжина масиву:', flattenedArray_2.length);
 
 
 
@@ -190,7 +190,7 @@ console.log("Дев'ята літера:", ninthLetter);
 // 15
 
 const userInput0 = prompt("Введіть рядок:");
-const [secondLetter = '!', , fourthLetter = '!', fifthLetter_0 = '!'] = userInput;
+const [secondLetter = '!', , fourthLetter = '!', fifthLetter_0 = '!'] = userInput0;
 
 console.log("Друга літера:", secondLetter);
 console.log("Четверта літера:", fourthLetter);
@@ -264,7 +264,7 @@ for (const name of names) {
 }
 
 str_2 += "</table>";
-document.write(str);
+document.write(str_2);
 
 
 
@@ -388,7 +388,7 @@ const modifiedWordsArray = userInput.split(' ').map(word => forbiddenWords.inclu
 
 const resultString = modifiedWordsArray.join(' ');
 
-console.log(resultString);
+console.log(resulString);
 
 
 
@@ -435,9 +435,9 @@ for (const character of line) {
   i++;
 }
 if (bracketsStack.length === 0) {
-  alert("Красава!!!");
+ console.log("Красава!!!");
 } else {
   const lastUnclosedBracket = bracketsStack.pop();
- alert(`Помилка: Немає відповідної закриваючої дужки для відкриваючої дужки ${lastUnclosedBracket.character} на позиції ${lastUnclosedBracket.index}.`);
+ console.log(`Помилка: Немає відповідної закриваючої дужки для відкриваючої дужки ${lastUnclosedBracket.character} на позиції ${lastUnclosedBracket.index}.`);
 }
 
