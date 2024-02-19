@@ -15,7 +15,7 @@ let answers_0 = [];
 answers_0[0] = prompt("Ви поснідали?");
 answers_0[1] = prompt("Ви пообідали?");
 answers_0[2] = prompt("Ви повечеряли?");
-console.log(answers0);
+console.log(answers_0);
 
 
 
@@ -286,7 +286,7 @@ for (let i = 0; i < currenci.length; i++) {
 }
 
 str_3 += "</table>";
-document.write(str);
+document.write(str_3);
 
 
 
